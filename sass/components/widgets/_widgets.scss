@@ -1,0 +1,48 @@
+.widget {
+  margin: 0 0.5rem 0 0.5em;
+
+  // Make sure select elements fit in widgets.
+  select {
+    max-width: 100%;
+  }
+
+  li {
+    list-style: square;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .wp-block-search__inside-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    input {
+      margin: 0.5rem 0;
+      margin-right: 0.5rem;
+    }
+
+    button {
+      margin-left: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  aside.widget-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .widget {
+    width: 18%;
+  }
+}
