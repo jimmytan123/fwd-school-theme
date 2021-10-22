@@ -49,7 +49,7 @@ get_header();
 			<?php endwhile;
 
 				wp_reset_postdata();
-				echo "</section>";
+			// echo "</section>";
 			endif;
 			?>
 			</section>
